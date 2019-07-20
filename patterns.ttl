@@ -1,0 +1,310 @@
+@prefix : <> .
+@prefix sepses: <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://127.0.0.1:3333/1> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "CRON[*]: pam_unix(cron:session): session * for user root " .
+
+<http://127.0.0.1:3333/4> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Connection closed by * [preauth] " .
+
+<http://127.0.0.1:3333/7> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user admin * " .
+
+<http://127.0.0.1:3333/10> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Received disconnect from * [preauth] " .
+
+<http://127.0.0.1:3333/13> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Did not receive identification string from * " .
+
+<http://127.0.0.1:3333/16> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * Connection reset by peer " .
+
+<http://127.0.0.1:3333/19> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Could not write ident string to * " .
+
+<http://127.0.0.1:3333/22> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user guest * " .
+
+<http://127.0.0.1:3333/25> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user support * " .
+
+<http://127.0.0.1:3333/28> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: reverse mapping checking getaddrinfo for * failed - POSSIBLE BREAK-IN ATTEMPT! " .
+
+<http://127.0.0.1:3333/31> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user avconroot * " .
+
+<http://127.0.0.1:3333/34> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user webmaster * " .
+
+<http://127.0.0.1:3333/37> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user tomcat * " .
+
+<http://127.0.0.1:3333/40> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user tomcat* * " .
+
+<http://127.0.0.1:3333/43> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user oracle * " .
+
+<http://127.0.0.1:3333/46> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user zxin** * " .
+
+<http://127.0.0.1:3333/49> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user hadoop * " .
+
+<http://127.0.0.1:3333/52> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user app * " .
+
+<http://127.0.0.1:3333/55> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user user** * " .
+
+<http://127.0.0.1:3333/58> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user altibase * " .
+
+<http://127.0.0.1:3333/61> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user avinash * " .
+
+<http://127.0.0.1:3333/64> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user skype * " .
+
+<http://127.0.0.1:3333/67> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user hjlee * " .
+
+<http://127.0.0.1:3333/70> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user feng * " .
+
+<http://127.0.0.1:3333/73> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ruben * " .
+
+<http://127.0.0.1:3333/76> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user zhanghui * " .
+
+<http://127.0.0.1:3333/79> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user jabber * " .
+
+<http://127.0.0.1:3333/82> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user xymon * " .
+
+<http://127.0.0.1:3333/85> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user newuser * " .
+
+<http://127.0.0.1:3333/88> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user test * " .
+
+<http://127.0.0.1:3333/91> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user sales * " .
+
+<http://127.0.0.1:3333/94> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user nagios * " .
+
+<http://127.0.0.1:3333/97> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user password * " .
+
+<http://127.0.0.1:3333/100> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user liyang * " .
+
+<http://127.0.0.1:3333/103> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user jenkins * " .
+
+<http://127.0.0.1:3333/106> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user yen * " .
+
+<http://127.0.0.1:3333/109> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user jk * " .
+
+<http://127.0.0.1:3333/112> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user kevin * " .
+
+<http://127.0.0.1:3333/115> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user barbara * " .
+
+<http://127.0.0.1:3333/118> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user temp * " .
+
+<http://127.0.0.1:3333/121> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user patil * " .
+
+<http://127.0.0.1:3333/124> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user portal * " .
+
+<http://127.0.0.1:3333/127> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user charlton * " .
+
+<http://127.0.0.1:3333/130> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user info * " .
+
+<http://127.0.0.1:3333/133> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user postgres * " .
+
+<http://127.0.0.1:3333/136> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user student * " .
+
+<http://127.0.0.1:3333/139> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ftpuser * " .
+
+<http://127.0.0.1:3333/142> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user xiang * " .
+
+<http://127.0.0.1:3333/145> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user xliu * " .
+
+<http://127.0.0.1:3333/148> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user demo * " .
+
+<http://127.0.0.1:3333/151> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user dmuser * " .
+
+<http://127.0.0.1:3333/154> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user svn * " .
+
+<http://127.0.0.1:3333/157> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user corin * " .
+
+<http://127.0.0.1:3333/160> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user donald * " .
+
+<http://127.0.0.1:3333/163> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user appdev* * " .
+
+<http://127.0.0.1:3333/166> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ankit * " .
+
+<http://127.0.0.1:3333/169> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user kim * " .
+
+<http://127.0.0.1:3333/172> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user jacky * " .
+
+<http://127.0.0.1:3333/175> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user dev * " .
+
+<http://127.0.0.1:3333/178> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user google * " .
+
+<http://127.0.0.1:3333/181> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user cms * " .
+
+<http://127.0.0.1:3333/184> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user sysadmin * " .
+
+<http://127.0.0.1:3333/187> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user xxxxxxxxxxxxxxxxxxxxxxxxxxxxx * " .
+
+<http://127.0.0.1:3333/190> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user minecraft * " .
+
+<http://127.0.0.1:3333/193> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user upload * " .
+
+<http://127.0.0.1:3333/196> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user bwadmin * " .
+
+<http://127.0.0.1:3333/199> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user cacti * " .
+
+<http://127.0.0.1:3333/202> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user git * " .
+
+<http://127.0.0.1:3333/205> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user rsync * " .
+
+<http://127.0.0.1:3333/208> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user redmine * " .
+
+<http://127.0.0.1:3333/211> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ibmuser * " .
+
+<http://127.0.0.1:3333/214> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user hduser * " .
+
+<http://127.0.0.1:3333/217> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user xbian * " .
+
+<http://127.0.0.1:3333/220> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user pi * " .
+
+<http://127.0.0.1:3333/223> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user vyatta * " .
+
+<http://127.0.0.1:3333/226> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user operator * " .
+
+<http://127.0.0.1:3333/229> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user cgi * " .
+
+<http://127.0.0.1:3333/232> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user mysql * " .
+
+<http://127.0.0.1:3333/235> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ben * " .
+
+<http://127.0.0.1:3333/238> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user teamspeak * " .
+
+<http://127.0.0.1:3333/241> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ts * " .
+
+<http://127.0.0.1:3333/244> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user db*inst* * " .
+
+<http://127.0.0.1:3333/247> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user mythtv * " .
+
+<http://127.0.0.1:3333/250> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user tnmspon * " .
+
+<http://127.0.0.1:3333/253> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user rpcuser * " .
+
+<http://127.0.0.1:3333/256> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user webmail * " .
+
+<http://127.0.0.1:3333/259> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user gopher * " .
+
+<http://127.0.0.1:3333/262> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ns * " .
+
+<http://127.0.0.1:3333/265> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user squid * " .
+
+<http://127.0.0.1:3333/268> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user nfsnobody * " .
+
+<http://127.0.0.1:3333/271> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user postfix * " .
+
+<http://127.0.0.1:3333/274> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user ashish * " .
+
+<http://127.0.0.1:3333/277> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user eduardo * " .
+
+<http://127.0.0.1:3333/280> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: * user dff * " .
+
+<http://127.0.0.1:3333/283> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Invalid user * from * " .
+
+<http://127.0.0.1:3333/286> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: input_userauth_request: invalid user * [preauth] " .
+
+<http://127.0.0.1:3333/289> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Address * maps to * but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT! " .
+
+<http://127.0.0.1:3333/292> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Bad protocol version identification * from * " .
+
+<http://127.0.0.1:3333/295> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Disconnecting: Too many authentication failures for root [preauth] " .
+
+<http://127.0.0.1:3333/298> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Corrupted MAC on input. [preauth] " .
+
+<http://127.0.0.1:3333/301> a <http://www.semanticweb.org/arampa/ontologies/2019/6/sepsespatterns#Pattern>;
+  owl:hasValue "sshd[*]: Received disconnect from * **: * [preauth] " .
