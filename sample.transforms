@@ -1,0 +1,18 @@
+#id,type,NAME,transform
+00,REPLACE,USER,(user [a-z]+)
+01,REPLACE,MACHINENAME,([a-z]n\d+)
+02,REPLACE,MACADDR,((?:[0-9A-Fa-f]{2}[:-]){5}(?:[0-9A-Fa-f]{2}))
+03,REPLACE,INTERRUPT,(interrupt [0-9a-fA-F]{4}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}\.[0-9a-fA-F]\[[a-z]\])
+04,REPLACE,FILEANDLINE,((?:\w+\.)+(?:\w+):\d{1,10})
+05,REPLACE,URL,(https?:\/\/\S+)
+06,REPLACE,IPADDR,((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
+07,REPLACE,IPADDR,(ip-(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\-){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
+08,REPLACE,IPADDR,((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\-){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))
+09,REPLACE,FILEPATH,((?:\S+)\/(?:[^\/]?)(?:\S+))
+10,REPLACE,AFILE,((?:\w+\.)+\w+)
+11,REPLACE,LEVEL,(debug|error|fatal|info|trace|trace_int|warning|warn|alert|error|crit):
+12,REPLACE,MEMADDR,([0-9a-fA-F]{16})
+13,REPLACE,HEX,(0x[0-9a-fA-F]+)
+14,REPLACE,VERSION,([Vv]\d+)
+15,REPLACE,INT,(\d+)
+16,REPLACE,KEYVALUE,((?:\w+)=(?:.+?)(?:\b|$))
