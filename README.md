@@ -1,3 +1,5 @@
+Magichour
+
 Preprocessing output: 
 Transforms the original log file into an iterable of LogLine named tuples.
 Transformation rules (regexp) are not required but highly recommended for template creation.
